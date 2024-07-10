@@ -10,7 +10,7 @@ C-shell program implemented in C is a simple Unix shell that supports job contro
 
 <h2>Functions</h2>
 
-<p>• eval: Parses and executes commands entered by the user. </p> <br/>
+• eval: Parses and executes commands entered by the user. <br/>
 • builtin_cmd: Checks and executes built-in commands. <br/>
 • do_bgfg: Implements the bg and fg built-in commands. <br/>
 • waitfg: Waits for a foreground job to complete. <br/>
@@ -22,7 +22,7 @@ C-shell program implemented in C is a simple Unix shell that supports job contro
 
 <h2>Features</h2>
 
-• Command Execution: Executes both built-in and external commands.
-• Job Control: Supports job control commands such as bg (background) and fg (foreground).
-• Signal Handling: Handles signals like SIGINT, SIGTSTP, and SIGCHLD.
-• Built-in Commands: Includes built-in commands like quit, jobs, bg, and fg.
+• Command Execution: Executes both built-in and external commands.<br/>
+• Job Control: Supports job control commands such as bg (background) and fg (foreground).<br/>
+• Signal Handling: Handles signals like SIGINT, SIGTSTP, and SIGCHLD.<br/>
+• Built-in Commands: Includes built-in commands like quit, jobs, bg, and fg.<br/>
