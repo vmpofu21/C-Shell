@@ -10,13 +10,13 @@ C-shell program implemented in C is a simple Unix shell that supports job contro
 
 <h2>Functions</h2>
 
-• eval: Parses and executes commands entered by the user.
-• builtin_cmd: Checks and executes built-in commands.
-• do_bgfg: Implements the bg and fg built-in commands.
-• waitfg: Waits for a foreground job to complete.
-• sigchld_handler: Handles SIGCHLD signals.
-• sigint_handler: Handles SIGINT (Ctrl-C) signals.
-• sigtstp_handler: Handles SIGTSTP (Ctrl-Z) signals.
+<p>• eval: Parses and executes commands entered by the user. </p> <br/>
+• builtin_cmd: Checks and executes built-in commands. <br/>
+• do_bgfg: Implements the bg and fg built-in commands. <br/>
+• waitfg: Waits for a foreground job to complete. <br/>
+• sigchld_handler: Handles SIGCHLD signals. <br/>
+• sigint_handler: Handles SIGINT (Ctrl-C) signals. <br/>
+• sigtstp_handler: Handles SIGTSTP (Ctrl-Z) signals. <br/>
 
 ----------------------------------------------------------------------------------------------------
 
