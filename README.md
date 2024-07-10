@@ -10,8 +10,8 @@ C-shell program implemented in C is a simple Unix shell that supports job contro
 
 <h2>Functions</h2>
 
-# eval: Parses and executes commands entered by the user.
-# builtin_cmd: Checks and executes built-in commands.
+• eval: Parses and executes commands entered by the user.
+• builtin_cmd: Checks and executes built-in commands.
 • do_bgfg: Implements the bg and fg built-in commands.
 • waitfg: Waits for a foreground job to complete.
 • sigchld_handler: Handles SIGCHLD signals.
